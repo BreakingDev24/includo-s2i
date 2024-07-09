@@ -57,6 +57,17 @@ const azienda3 = new Azienda(
     ["Stilista", "Sarto", "Addetto marketing"]
 );
 
-//
+
+//iscrivi corso
+partecipante1.iscrivitiCorso(corso2);
+corso1.aggiungiPartecipante(partecipante2);
+partecipante1.iscrivitiCorso(corso2);
+
+//offri posizione
+azienda1.offriPosizione(partecipante2, 'calzolaio');
+azienda3.offriPosizione(partecipante3, 'sarto')
+
+
+
 
 
