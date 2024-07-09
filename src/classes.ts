@@ -65,7 +65,7 @@ export class Azienda implements IAzienda{
         this.posizioniAperte = posizioniAperte
     }
     offriPosizione(partecipante: Ipartecipante, posizione:string): void {
-        console.log(`Gentile ${partecipante.nome} ${partecipante.cognome} dopo avere analizzato il suo profilo siamo lieti di offrirle la posizione di ${posizione}`);
+        console.log(`Gentile ${partecipante.nome} ${partecipante.cognome} dopo avere analizzato la sua candidatura per la nostra azienda '${this.nome}' siamo lieti di offrirle la posizione di ${posizione}`);
         
     } 
 }
