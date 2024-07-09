@@ -1,4 +1,4 @@
-interface Ipartecipante {
+export interface Ipartecipante {
     nome: string;
     cognome: string;
     paese: string;
@@ -10,7 +10,7 @@ interface Ipartecipante {
 
 }
 
-interface Icorso {
+export interface Icorso {
     titoloCorso: string;
     descrizione: string;
     settore: string;
@@ -20,7 +20,7 @@ interface Icorso {
     aggiungiPartecipante(partecipante: Ipartecipante, ):void
 }
 
-interface IAzienda {
+export interface IAzienda {
     nome: string;
     settore: string;
     descrizione: string;
